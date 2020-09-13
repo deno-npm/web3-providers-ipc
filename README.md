@@ -9,15 +9,11 @@ Please read the [documentation][docs] for more.
 ## Usage
 
 ```js
-const Web3IpcProvider = require('web3-providers-ipc');
-const net = require(net);
+import Web3IpcProvider from 'https://deno.land/x/npm_web3_providers_ipc@0.0.1/mod.js';
+import net from "https://deno.land/std@0.69.0/node/net.js";
 
 const ipc = new Web3IpcProvider('/Users/me/Library/Ethereum/geth.ipc', net);
 ```
-
-## Types
-
-All the TypeScript typings are placed in the `types` folder.
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js

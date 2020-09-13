@@ -18,10 +18,10 @@
 import {
   _,
   oboe,
-  utils,
+  helpers,
 } from "./deps.js";
 
-const { errors } = utils;
+const { errors } = helpers;
 
 var IpcProvider = function IpcProvider(path, net) {
   var _this = this;

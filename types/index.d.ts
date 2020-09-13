@@ -15,6 +15,6 @@
     along with web3.js.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import { IpcProviderBase } from "web3-core-helpers";
+import { helpers } from "./deps.js";
 
-export class IpcProvider extends IpcProviderBase {}
+export class IpcProvider extends helpers.IpcProviderBase {}
